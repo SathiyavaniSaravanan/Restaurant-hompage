@@ -1,25 +1,38 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Home from './Components/Home';
+import Navbar from './Components/Navbar';
+// import { useState } from 'react';
 
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Home/>
     </div>
   );
+
 }
 
 export default App;
+
+
+
+
+
+
+// const [likes, setLikes] = useState(0);
+  // const handleLike = () => {
+  //   setLikes(prevLike => prevLike + 1);
+  // }
+  // const handleDislike = () => {
+  //   setLikes(prevLike => prevLike - 1);
+  // }
+  // return (
+  //   <div className="App">
+  //     <h1 style={{color:"red",fontStyle:"italic"}}>You got {likes} Likes!!!</h1>
+  //     <button onClick={handleLike}>Like</button>
+  //     <button onClick={handleDislike}>Dislike</button>
+  //   </div>
+  // );

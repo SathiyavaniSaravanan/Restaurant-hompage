@@ -1,0 +1,29 @@
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 70px;
+    background-color: white;
+}
+.logo h2
+{
+    font-size: 32px;
+}
+.logo h2 span
+{
+    color: red;
+}
+.navbar button
+{
+    padding: 10px 15px;
+    border: none;
+    background-color: red; 
+    border-radius: 25px;
+}
+.navbar button a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}

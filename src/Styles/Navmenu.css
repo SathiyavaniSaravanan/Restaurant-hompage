@@ -1,0 +1,23 @@
+.navMenu
+{
+    width: 60%;
+}
+.navMenu ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.navMenu ul li a
+{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0px 5px;
+    /* transition: all 0.5s linear; */
+}
+.navMenu ul li a:hover 
+{
+    border-bottom: 2px solid red;
+}
